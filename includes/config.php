@@ -8,13 +8,12 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Favorite Game Series',
+        'name' => 'Comics',
         'pretty_uri' => false,
-        'site_url' => 'https://colemanphpdemo.herokuapp.com',
+        'site_url' => 'https://colemanassign2.herokuapp.com',
         'nav_menu' => [
-            '' => 'Game Series',
-            'about-us' => 'About Valencia',
-            'contact' => 'Contact Valencia'
+            '' => 'Current Comic',
+            'random' => 'Random Comic'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
