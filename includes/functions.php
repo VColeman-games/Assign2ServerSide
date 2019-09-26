@@ -91,5 +91,8 @@ curl_close($handle);
 /*dont change
 */
 }
+function getComicImage(){
+
+}
 
 ?>
