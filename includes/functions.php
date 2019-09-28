@@ -92,7 +92,7 @@ curl_close($handle);
 /*dont change
 */
 
-echo $response['img'];
+echo $response['title'];
 }
 function getComicImage(){
 
