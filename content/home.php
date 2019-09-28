@@ -1,2 +1,2 @@
 
-<p> <?php echo 'Hello World!'; ?> </p>
+<p> <?php getComic(); ?> </p>
