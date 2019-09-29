@@ -88,11 +88,12 @@ CURLOPT_RETURNTRANSFER => true
 );
 $output = curl_exec($handle);
 $response = json_decode($output, true);
+echo $response["title"] ;
 curl_close($handle);
 /*dont change
 */
 echo $url;
-echo $response["month"] ;
+
 }
 
 
