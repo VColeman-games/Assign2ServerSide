@@ -93,7 +93,7 @@ curl_close($handle);
 */
 echo '<h1>' . $response["title"] . '</h1>';
 echo '<br>';
-echo '<h2>' . $response["month"] . '/' . $response["date"] . '/'. $response["year"] . '</h2>';
+echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4>';
 }
 
 
