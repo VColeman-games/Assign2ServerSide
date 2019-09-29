@@ -91,8 +91,8 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo $url;
-echo $response[1];
+
+echo $response["title"];
 }
 
 
