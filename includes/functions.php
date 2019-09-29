@@ -73,8 +73,8 @@ function init()
 {
     require config('template_path') . '/template.php';
 }
-/**Function for getting the comic */
-function getComic(){
+/**Function for getting the comic title and date */
+function getComicTitle(){
 $url = 'https://xkcd.com/info.0.json';
 /**dont change
 */
@@ -92,7 +92,8 @@ curl_close($handle);
 /*dont change
 */
 echo '<h1>' . $response["title"] . '</h1>';
-echo $response["img"];
+echo '<br>';
+echo '<h2>' . $response["month"] . '/' . $response["date"] . '/'. $response["year"] . '</h2>';
 }
 
 
