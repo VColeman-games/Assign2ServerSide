@@ -93,6 +93,7 @@ curl_close($handle);
 */
 
 echo $response["title"];
+echo $response["img"];
 }
 
 
