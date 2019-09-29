@@ -92,7 +92,7 @@ curl_close($handle);
 /*dont change
 */
 echo $url;
-echo $response['title'];
+echo $response[1];
 }
 
 
