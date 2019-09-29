@@ -63,7 +63,7 @@ function page_content()
         $path = getcwd() . '/' . config('content_path') . '/404.php';
     }/*
     echo file_get_contents($path);*/
-    require config('content_path') . '/'. $page . '.php';
+    require config($path) . '/'. $page . '.php';
 }
 
 /**
