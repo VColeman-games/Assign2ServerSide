@@ -91,11 +91,9 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-
-echo 'Hello World';
+echo $url;
+echo $response ;
 }
-function getComicImage(){
 
-}
 
 ?>
