@@ -75,7 +75,7 @@ function init()
 }
 /**Function for getting the comic */
 function getComic(){
-$url = 'http://xkcd.com/info.0.json';
+$url = 'https://xkcd.com/info.0.json';
 /**dont change
 */
 $handle = curl_init();
@@ -88,12 +88,11 @@ CURLOPT_RETURNTRANSFER => true
 );
 $output = curl_exec($handle);
 $response = json_decode($output, true);
-echo $response["title"] ;
 curl_close($handle);
 /*dont change
 */
 echo $url;
-
+echo $response['title'];
 }
 
 
