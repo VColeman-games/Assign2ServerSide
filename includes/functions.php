@@ -92,7 +92,7 @@ curl_close($handle);
 /*dont change
 */
 
-echo $response['title'];
+echo 'Hello World';
 }
 function getComicImage(){
 
