@@ -138,6 +138,7 @@ echo '<h1>' . $response["title"] . '</h1>';
 echo '<br>';
 echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4>';
 }
+
 function getComicImageRand(){
 $randNum = rand(1,2208);
 $url = 'https://xkcd.com/'. $randNum. '/'.'info.0.json';
@@ -157,6 +158,12 @@ curl_close($handle);
 /*dont change
 */
 echo $response["img"];
+}
+
+function getComicURLRand(){
+$randNum = rand(1,2208);
+$url = 'https://xkcd.com/'. $randNum. '/'.'info.0.json';
+echo $url;
 }
 
 
