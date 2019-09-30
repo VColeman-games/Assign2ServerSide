@@ -9,7 +9,7 @@
                     data: {"link": ""},
                     dataType: "json",
                     success: function (data) {
-                        alert(url);
+                        alert(data);
                     },
                     error: function (result) {
                         alert("Error");
