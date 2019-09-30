@@ -1,6 +1,6 @@
 <script >
-            function testing(){
-                 alert("Hello! I am an alert box!!");
+            function ChangeComic(){
+                 location.reload();
 /*
                 $.ajax({
 
@@ -20,4 +20,4 @@
 
 <div> <?php getComicTitleRand(); ?> </div>
 <div class="d-flex justify-content-center"><img src = <?php getComicImageRand(); ?>></div>
-<button onClick="testing()" >New Comic</button>
+<button onClick="ChangeComic()" >New Comic</button>
