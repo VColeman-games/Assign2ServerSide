@@ -1,20 +1,20 @@
 <script >
             function ChangeComic(){
-                 location.reload();
-/*
+                 //location.reload();
+
                 $.ajax({
 
-                    type: "POST",
+                    type: "GET",
                     url: <?php getComicURLRand(); ?>,
                     data: {"link": ""},
                     dataType: "json",
                     success: function (data) {
-                        alert(data);
+                        alert(url);
                     },
                     error: function (result) {
                         alert("Error");
                     }
-                });*/
+                });
             }
         </script>
 
