@@ -9,7 +9,7 @@
                     data: { get_param: 'link'},
                     dataType: "json",
                     success: function (data) {
-                        alert("Hello World");
+                        alert(data);
                     },
                     error: function (result) {
                         alert("Error");
