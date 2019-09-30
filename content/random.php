@@ -1,11 +1,12 @@
 <script >
             function testing() {
-
+                  document.getElementById("demo").innerHTML = "Hello World";
+/*
                 $.ajax({
 
-                    type: "GET",
+                    type: "POST",
                     url: <?php getComicURLRand(); ?>,
-                    data: {"link"},
+                    data: {"link": ""},
                     dataType: "json",
                     success: function (data) {
                         alert(data);
@@ -13,7 +14,7 @@
                     error: function (result) {
                         alert("Error");
                     }
-                });
+                });*/
             }
         </script>
 
