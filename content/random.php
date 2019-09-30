@@ -1,6 +1,6 @@
 <script >
-            function testing() {
-                  document.getElementById("demo").innerHTML = "Hello World";
+            function testing(){
+                 alert("Hello! I am an alert box!!");
 /*
                 $.ajax({
 
