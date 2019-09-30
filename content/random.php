@@ -6,11 +6,10 @@ $.ajax(
 {
 type: 'post',  //whats your request type
 url: "random.php",  // whats your php file
-data: {}, //what data are you sending via JSON
 dataType:"json", // what type of data are you getting back
 success: function(data)
 {
-$("img").attr('src',<?php getComicImageRand(); ?>);
+document.getElementByTagName("img").src=<?php getComicImageRand(); ?>
 //what are you going to do with what you get
 }
 });
