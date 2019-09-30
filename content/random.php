@@ -1,7 +1,2 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-
-</body>
-</html>
+<div> <?php getComicTitleRand(); ?> </div>
+<img src = <?php getComicImageRand(); ?>>
