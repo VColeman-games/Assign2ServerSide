@@ -5,11 +5,11 @@
                 $.ajax({
 
                     type: "GET",
-                    url: 'random.php',
-                    data: { get_param: 'value'},
+                    url: <?php getComicURLRand(); ?>
+                    data: { get_param: 'link'},
                     dataType: "json",
                     success: function (data) {
-                        alert(data);
+                        alert("Hello World");
                     },
                     error: function (result) {
                         alert("Error");
