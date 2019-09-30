@@ -4,18 +4,14 @@ $(document).ready(function(){
   $("button").click(function(){
 $.ajax(
 {
-type: 'POST',  //whats your request type
+type: 'post',  //whats your request type
 url: "random.php",  // whats your php file
 data: {}, //what data are you sending via JSON
-dataType:"", // what type of data are you getting back
+dataType:"json", // what type of data are you getting back
 success: function(data)
 {
-window.location.reload();
+$("img").attr('src',<?php getComicImageRand(); ?>);
 //what are you going to do with what you get
-},
-error: function()
-{
-//what to do if it fails
 }
 });
 });
