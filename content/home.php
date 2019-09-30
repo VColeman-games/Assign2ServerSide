@@ -1,3 +1,3 @@
 
 <div> <?php getComicTitle(); ?> </div>
-<img src = <?php getComicImage(); ?>>
+<div class="d-flex justify-content-center"><img src = <?php getComicImage(); ?>></div>

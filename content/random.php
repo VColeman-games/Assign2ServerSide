@@ -1,2 +1,2 @@
 <div> <?php getComicTitleRand(); ?> </div>
-<img src = <?php getComicImageRand(); ?>>
+<div class="d-flex justify-content-center"><img src = <?php getComicImageRand(); ?>></div>
