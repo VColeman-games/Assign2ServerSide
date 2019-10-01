@@ -7,10 +7,10 @@
 
                     type: "post",
                     url: "/includes/functions.php",
-                    data: {'output': true},
+                    data: {'random': true},
                     dataType: "HTML",
                     success: function (data) {
-                        $('#randomComic').html(data);
+                        alert(data);
                     },
                     error: function (result) {
                         alert("Error");
