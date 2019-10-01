@@ -5,7 +5,7 @@
                 $.ajax({
 
                     type: "GET",
-                    url: <?php getComicURLRand(); ?>
+                    url: 'random.php'
                     data: {'link': ""},
                     dataType: "html",
                     success: function (data) {
