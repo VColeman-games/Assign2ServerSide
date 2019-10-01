@@ -1,5 +1,5 @@
 <script>
-            ChangeComic(){
+            ChangeComic() {
                  //location.reload();
 
                 $.ajax({
@@ -16,7 +16,7 @@
                     }
                 });
                 return false;
-            };
+            }
         </script>
 <div id="randomComic">
 <div> <?php getComicTitleRand(); ?> </div>
