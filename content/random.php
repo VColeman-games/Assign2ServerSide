@@ -1,5 +1,6 @@
 <script>
-            ChangeComic() {
+           $(document).ready(function(){
+  $("button").click(function(){
                  //location.reload();
 
                 $.ajax({
@@ -16,10 +17,11 @@
                     }
                 });
                 return false;
-            }
+            });
+           });
         </script>
 <div id="randomComic">
 <div> <?php getComicTitleRand(); ?> </div>
 <div class="d-flex justify-content-center"><img src = <?php getComicImageRand(); ?>></div>
 </div>
-<button id="change" onclick='ChangeComic()' >New Comic</button>
+<button id="change" >New Comic</button>
