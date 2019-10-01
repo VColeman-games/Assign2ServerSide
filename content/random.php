@@ -1,5 +1,5 @@
-<script >
-            $('#change').click(function(){
+<script>
+            ChangeComic(){
                  //location.reload();
 
                 $.ajax({
@@ -22,4 +22,4 @@
 <div> <?php getComicTitleRand(); ?> </div>
 <div class="d-flex justify-content-center"><img src = <?php getComicImageRand(); ?>></div>
 </div>
-<button id="change" >New Comic</button>
+<button id="change" onclick='ChangeComic()' >New Comic</button>
