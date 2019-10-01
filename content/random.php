@@ -16,7 +16,7 @@
                     }
                 });
                 return false;
-            });
+            };
         </script>
 <div id="randomComic">
 <div> <?php getComicTitleRand(); ?> </div>
