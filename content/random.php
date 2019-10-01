@@ -5,7 +5,7 @@
                 $.ajax({
 
                     type: "GET",
-                    url: "<?php getComicURLRand(); ?>",
+                    url: "file:///workspace/Assign2ServerSide/includes/functions.php",
                     data: {'link': ""},
                     dataType: "html",
                     success: function (data) {
