@@ -6,7 +6,7 @@
 
                     type: "post",
                     url: "/includes/functions.php",
-                    data: {'random': true},
+                    data: {'output': true},
                     dataType: "HTML",
                     success: function (data) {
                         $('#randomComic').html(data);
