@@ -7,7 +7,7 @@
                     type: "GET",
                     url: <?php getComicURLRand(); ?>
                     data: { get_param: 'link'},
-                    dataType: "json",
+                    dataType: "html",
                     success: function (data) {
                         alert(data);
                     },
