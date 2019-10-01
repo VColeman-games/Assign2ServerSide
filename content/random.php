@@ -16,10 +16,10 @@
                     }
                 });
                 return false;
-            }
+            });
         </script>
 <div id="randomComic">
 <div> <?php getComicTitleRand(); ?> </div>
 <div class="d-flex justify-content-center"><img src = <?php getComicImageRand(); ?>></div>
 </div>
-<button onClick="ChangeComic()" >New Comic</button>
+<button id="change" >New Comic</button>
