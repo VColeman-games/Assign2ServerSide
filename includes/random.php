@@ -1,3 +1,4 @@
+<?php
 /**Function for getting the comic title and date for random comic for random comic */
 function getComicRand(){
 
@@ -27,3 +28,4 @@ $random = true ;
 if(isset($random)){
     getComicRand();
 }
+?>
