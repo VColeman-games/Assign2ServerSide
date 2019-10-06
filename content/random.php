@@ -6,7 +6,7 @@
                 $.ajax({
 
                     type: "post",
-                    url: "/includes/random.php",
+                    url: "/includes/randomFunction.php",
                     data: {'random': true},
                     dataType: "HTML",
                     success: function (data) {
