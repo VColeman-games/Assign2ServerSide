@@ -21,7 +21,6 @@
            });
         </script>
 <div id="randomComic">
-<div> <?php getComicTitleRand(); ?> </div>
-<div class="d-flex justify-content-center"><img src = <?php getComicImageRand(); ?>></div>
+<div> <?php getComicRand(); ?> </div>
 </div>
 <button id="change" >New Comic</button>
