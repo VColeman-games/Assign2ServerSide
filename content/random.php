@@ -10,7 +10,7 @@
                     data: {'random': true},
                     dataType: "HTML",
                     success: function (data) {
-                        document.getElementById('randomcomic').innerHTML = data;
+                        document.getElementById('randomComic').innerHTML = data;
                     },
                     error: function (result) {
                         alert("Error");
@@ -20,7 +20,8 @@
             });
            });
         </script>
+<button id="change" >New Comic</button>
 <div id="randomComic">
 <div> <?php getComicRand(); ?> </div>
 </div>
-<button id="change" >New Comic</button>
+
