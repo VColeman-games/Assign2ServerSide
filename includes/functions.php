@@ -91,9 +91,10 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo '<h1>' . $response["title"] . '</h1>';
+echo '<div><h1>' . $response["title"] . '</h1></div>';
 echo '<br>';
 echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4>';
+echo '<div class="d-flex justify-content-center"> <<img src = ' . $response["img"] .'></div>'; 
 }
 function getComicImage(){
 $url = 'https://xkcd.com/info.0.json';
