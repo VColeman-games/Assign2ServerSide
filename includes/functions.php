@@ -94,7 +94,7 @@ curl_close($handle);
 echo '<div><h1>' . $response["title"] . '</h1></div>';
 echo '<br>';
 echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4>';
-echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div>'; 
+echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div>';
 }
 
 
@@ -121,11 +121,11 @@ curl_close($handle);
 echo '<div><h1>' . $response["title"] . '</h1></div>';
 echo '<br>';
 echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4>';
-echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div>'; 
+echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div>';
 }
 
 if(isset($random)){
-    echo 'New Comic';
+    echo '<div> New Comic </div> ';
 }
 
 
