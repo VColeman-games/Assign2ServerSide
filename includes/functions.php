@@ -123,9 +123,9 @@ echo '<br>';
 echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4>';
 echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div>';
 }
-
+$random = true;
 if(isset($random)){
-    echo '<div> New Comic </div> ';
+    getComicRand();
 }
 
 
