@@ -10,7 +10,7 @@
                     data: {'random': true},
                     dataType: "HTML",
                     success: function (data) {
-                        alert(data);
+                        document.getElementById('randomcomic').innerHTML = data;
                     },
                     error: function (result) {
                         alert("Error");
