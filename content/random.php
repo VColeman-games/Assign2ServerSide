@@ -20,8 +20,10 @@
             });
            });
         </script>
-<button id="change" >New Comic</button>
+<div class="d-flex justify-content-center">
+<button id="change"  >New Comic</button>
 <div id="randomComic">
 <div> <?php getComicRand(); ?> </div>
+</div>
 </div>
 
