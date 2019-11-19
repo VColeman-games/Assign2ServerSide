@@ -21,7 +21,7 @@
            });
         </script>
 <div class="d-flex justify-content-center">
-<button id="change"  >New Comic</button>
+<button class="d-flex justify-content-center" id="change"  >New Comic</button>
 <div id="randomComic">
 <div> <?php getComicRand(); ?> </div>
 </div>
