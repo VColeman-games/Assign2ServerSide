@@ -93,7 +93,7 @@ curl_close($handle);
 */
 echo '<div><h1>' . $response["title"] . '</h1></div> ';
 echo '<br>';
-echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4><br>';
+echo '<div class="d-flex justify-content-center"><h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4></div><br>';
 echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div><br>';
 }
 
