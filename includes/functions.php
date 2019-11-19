@@ -91,10 +91,10 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo '<div><h1>' . $response["title"] . '</h1></div>';
+echo '<div><h1>' . $response["title"] . '</h1></div> ';
 echo '<br>';
-echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4>';
-echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div>';
+echo '<h4>' . $response["month"] . '/' . $response["day"] . '/'. $response["year"] . '</h4><br>';
+echo '<div class="d-flex justify-content-center"> <img src = ' . $response["img"] .'></div><br>';
 }
 
 
