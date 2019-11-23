@@ -20,7 +20,8 @@
             });
            });
         </script>
-<button class="btn btn-primary" id="change"  >New Comic</button>
+
+<button  id="change"  >New Comic</button>
 <div class="d-flex justify-content-center">
 <br>
 <div id="randomComic">
